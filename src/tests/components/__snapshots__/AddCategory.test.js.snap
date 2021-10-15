@@ -4,12 +4,19 @@ exports[`Test for AddCategory component should render correctly 1`] = `
 <form
   onSubmit={[Function]}
 >
-  <p />
   <input
+    className="input-container"
     onChange={[Function]}
     placeholder="Enter your gif"
+    spellCheck="false"
     type="text"
     value=""
   />
+  <button
+    className="button-container"
+    onClick={[Function]}
+  >
+    Search
+  </button>
 </form>
 `;

@@ -3,25 +3,29 @@ import { AddCategory } from "./AddCategory";
 import { GifGrid } from "./GifGrid";
 
 export const GifExpertApp = () => {
-  const [categories, setCategories] = useState(["Death Note"]);
-
-  // const handleAdd = () => {
-  //   setCategories([...categories, "Death Note"]);
-  // };
-
+  const [categories, setCategories] = useState(["The simpsons"]);
   return (
     <div>
-      <h2> Gif Expert App </h2>
-      <AddCategory setCategories={setCategories} />
-      <p className="Paragraph">Search the gif that you want and press enter!</p>
-      <hr />
-      <ol>
+      <div className="search-container">
+        <h2>GIF SEARCHER APP</h2>
+        <AddCategory setCategories={setCategories} />
+        <p className="paragraph">Find the gif what you are looking for!</p>
+        <div className="recent-searchs-container">
+          Recent searchs:
+          <p className="recent-searchs">
+            {categories.map((category, index) => (
+              <span className="result-key" key={category+index}>
+                [ {category} ]
+              </span>
+            ))}
+          </p>
+        </div>
+      </div>
+      <div className="grid-container">
         {categories.map((category) => (
-          <GifGrid 
-              key={category} 
-              category = {category} />
+          <GifGrid key={category} category={category} />
         ))}
-      </ol>
+      </div>
     </div>
   );
 };
