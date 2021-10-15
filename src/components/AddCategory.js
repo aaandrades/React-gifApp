@@ -18,13 +18,17 @@ export const AddCategory = ({ setCategories }) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <p>{inputValue}</p>
       <input
         type="text"
         value={inputValue}
         placeholder="Enter your gif"
         onChange={handleInputChange}
-      ></input>
+        className="input-container"
+        spellCheck="false"
+      />
+      <button className="button-container" onClick={handleSubmit}>
+        Search
+      </button>
     </form>
   );
 };
