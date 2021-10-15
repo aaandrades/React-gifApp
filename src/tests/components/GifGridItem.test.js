@@ -13,8 +13,8 @@ describe("Test for GifGrifItem Component", () => {
   });
 
   test("should have a paragraph with the Title", () => {
-    const p = wrapper.find("p");
-    expect(p.text().trim()).toBe(title);
+    const span = wrapper.find("span");
+    expect(span.text().trim()).toBe(title);
   });
 
   test("should have an url", () => {
@@ -28,7 +28,7 @@ describe("Test for GifGrifItem Component", () => {
   });
 
   test("should have animate classname", () => {
-    const div = wrapper.find("div");
+    const div = wrapper.find("div").at(0);
     const className = div.prop("className");
     expect(className.includes("animate__animated")).toBe(true);
   });

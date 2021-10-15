@@ -121,3 +121,7 @@ body {
     background: rgb(0, 0, 0);
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%, rgba(85, 85, 85, 1) 100%);
 }
+
+.paragraph {
+    color: silver;
+}

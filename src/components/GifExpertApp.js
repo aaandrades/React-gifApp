@@ -9,7 +9,7 @@ export const GifExpertApp = () => {
       <div className="search-container">
         <h2>GIF SEARCHER APP</h2>
         <AddCategory setCategories={setCategories} />
-        <p className="Paragraph">Find the gif what you are looking for!</p>
+        <p className="paragraph">Find the gif what you are looking for!</p>
         <div className="recent-searchs-container">
           Recent searchs:
           <p className="recent-searchs">

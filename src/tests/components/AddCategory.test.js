@@ -15,13 +15,6 @@ describe('Test for AddCategory component', () => {
     test('should render correctly', () => {
         expect(wrapper).toMatchSnapshot();
     });
-
-    test('should change the input text', () => {
-        const input = wrapper.find('input');
-        const value = 'Hello World in input';
-        input.simulate('change', { target: { value } });
-        expect(wrapper.find('p').text().trim()).toBe( value );
-    });
     
     test('should submit the input but doesnt show', () => {
         wrapper.find('form').simulate('submit',{ preventDefault(){}});

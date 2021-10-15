@@ -8,8 +8,12 @@ exports[`Test for GifGrifItem Component should render <GifGrifItem/> correctly 1
     alt="This is a title"
     src="https://localhost:8180/something.png"
   />
-  <p>
-    This is a title
-  </p>
+  <div
+    className="card-text"
+  >
+    <span>
+      This is a title
+    </span>
+  </div>
 </div>
 `;
