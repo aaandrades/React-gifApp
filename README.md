@@ -12,7 +12,7 @@ Web application to search gifs throw Giphy Developers (You can get an Api Key fo
   
 ### Demostration
 
-https://aaandrades.github.io/react-gifApp/
+https://aaandrades.github.io/React-gifApp/
 
 If you want to contribute to improve the app, please create your PR and write me :alien: . After it, sit down and take a beer, you deserve it! :beers:
 *This project is for academic purposes only, all right reserved. Andrés Andrade 2021 :copyright::registered:*
