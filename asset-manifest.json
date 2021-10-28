@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-gifApp/static/css/main.088d5a66.chunk.css",
+    "main.css": "/React-gifApp/static/css/main.5a1dd116.chunk.css",
     "main.js": "/React-gifApp/static/js/main.148207d2.chunk.js",
     "main.js.map": "/React-gifApp/static/js/main.148207d2.chunk.js.map",
     "runtime-main.js": "/React-gifApp/static/js/runtime-main.a9d46c7a.js",
@@ -10,13 +10,13 @@
     "static/js/3.1912a4a5.chunk.js": "/React-gifApp/static/js/3.1912a4a5.chunk.js",
     "static/js/3.1912a4a5.chunk.js.map": "/React-gifApp/static/js/3.1912a4a5.chunk.js.map",
     "index.html": "/React-gifApp/index.html",
-    "static/css/main.088d5a66.chunk.css.map": "/React-gifApp/static/css/main.088d5a66.chunk.css.map",
+    "static/css/main.5a1dd116.chunk.css.map": "/React-gifApp/static/css/main.5a1dd116.chunk.css.map",
     "static/js/2.2debe5fc.chunk.js.LICENSE.txt": "/React-gifApp/static/js/2.2debe5fc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a9d46c7a.js",
     "static/js/2.2debe5fc.chunk.js",
-    "static/css/main.088d5a66.chunk.css",
+    "static/css/main.5a1dd116.chunk.css",
     "static/js/main.148207d2.chunk.js"
   ]
 }
