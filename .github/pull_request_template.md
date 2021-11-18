@@ -1,23 +1,22 @@
-# Description
+## :memo: Description
 
-Please include a summary of the change and which issue is fixed or feature was included. Please also include relevant motivation and context. List any dependencies that are required for this change.
+Please include a summary of the change and, if apply, what issue you solved:
 
-## Type of change
 
-Please delete options that are not relevant.
+## :boom: Type of change
+
 
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] This change requires a documentation update
+- [ ] Breaking change, which?
+- [ ] Release
 
-# Checklist:
+## :see_no_evil: Checklist:
 
-- [ ] My code follows the style guidelines of this project
-- [ ] I have performed a self-review of my own code
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] My changes generate no new warnings
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] New and existing unit tests pass locally with my changes
-- [ ] Any dependent changes have been merged and published in downstream modules
+- [ ] My code follows the style guidelines of this project :lipstick:
+- [ ] I have performed a self-review of my own code :ok_hand:
+- [ ] I have commented my code, particularly in hard-to-understand areas :bulb:
+- [ ] I have made corresponding changes to the documentation :memo:
+- [ ] My changes generate no new warnings :mute:
+- [ ] I have created unit tests for the new code, besides, the existing test pass locally :white_check_mark:
+- [ ] Any dependent changes have been merged and published in downstream modules :arrow_up:
