@@ -2,6 +2,8 @@
 
 Web application to search gifs throw Giphy Developers (You can get an Api Key for free!).
 
+<img src="src/main.png"  alt="Login screen" width="600" height="400" style=border-radius:6px>
+
 ### Features :sparkles:
 - Type in the input your gif to search and press enter.
 
